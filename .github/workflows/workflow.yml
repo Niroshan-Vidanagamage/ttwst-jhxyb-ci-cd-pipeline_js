@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: node:20-alphine
+    container: node:20-alpine
     steps:
       - name: Check out
         uses: actions/checkout@v3
@@ -25,4 +25,3 @@ jobs:
       - name: Run unit tests with Jest
         run: npm test -- --coverage
 
-        
