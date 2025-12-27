@@ -24,3 +24,5 @@ jobs:
 
       - name: Run unit tests with Jest
         run: npm test -- --coverage
+
+        
